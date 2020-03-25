@@ -1,0 +1,11 @@
+{
+"window":{
+"navigationBarBackgroundColor":"#ff5400",
+"navigationBarBackgroundColor":"black",
+"navigationBarBackgroundColor":"Second Chapter",
+"backgroundColor":"#999999",
+"backgroundTextStyle":"light",
+"enablePullDownRefresh":true
+
+}
+}
