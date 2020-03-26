@@ -42,6 +42,21 @@ print(result['predicted_value'])
 
 
 
+#显示线性拟合模型的结果
+def show_linear_line(X_parameters,Y_parameters):
+  #创建回归模型
+  regr=linear_model.LinearRegression()
+  regr.fit(X_parameters,Y_parameters)
+  plt.scatter(X_parameter,Y_parameter,color='blue')
+  plt.plot(X_parameters,regr.predict(X_parameters),color='red',linewidth=4)
+  plt.xticks(())
+  plt.yticks(())
+  plt.show()
+  
+
+
+
+
 
 
 
